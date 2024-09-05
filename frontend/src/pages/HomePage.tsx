@@ -1,5 +1,6 @@
 import landingImage from "../assets/landing.png"
 import appDownloadImage from "../assets/appDownload.png"
+
 const HomePage = () => {
     return (
         <div className="flex flex-col gap-12">
