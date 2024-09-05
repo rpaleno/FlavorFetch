@@ -6,7 +6,7 @@ const Footer = () => {
                     FlavorFetch
                 </span>
                 <span className="text-white font-bold tracking-tight flex gap-4">
-                    <span>Pivacy Policy</span>
+                    <span>Privacy Policy</span>
                     <span>Terms of Service</span>
                 </span>
             </div>

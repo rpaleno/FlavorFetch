@@ -9,7 +9,7 @@ const Auth0ProviderWithNavigate = ({ children }: Props) => {
     const clientId = import.meta.env.VITE_AUTH0_CLIENT_ID;
     const redirectUri = import.meta.env.VITE_AUTH0_CALLBACK_URL;
 
-    if(!domain || !clientId || redirectUri) {
+    if(!domain || !clientId || !redirectUri) {
         throw new Error("unable to initialize auth");
     }
     const onRedirectCallback = (appState?: AppState, user?: User) => {
@@ -22,7 +22,7 @@ const Auth0ProviderWithNavigate = ({ children }: Props) => {
             authorizationParams={{
                 redirect_uri:redirectUri,
             }}
-            onRedirectCallback={}
+            onRedirectCallback={onRedirectCallback}
         >
         {children}
         </Auth0Provider>
