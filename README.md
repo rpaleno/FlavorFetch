@@ -1,5 +1,5 @@
 # FlavorFetch
-FlavorFetch is a React-based food delivery platform designed to simplify and enhance the meal ordering experience. Features payment with Stripe.
+FlavorFetch is a React-based food delivery platform designed to simplify and enhance the meal ordering experience. Utilized Stripe for payment processing, Auth0 for authentication and authorization.
 
 For Live Demo:
 https://flavorfetch-frontend.onrender.com
